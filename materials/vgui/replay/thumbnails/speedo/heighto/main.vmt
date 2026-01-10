@@ -1,6 +1,6 @@
 #base ../speedo_config.vmt
 
-#base ../colors/ranges/heighto_ranges.vmt
+#base ../colors/ranges/heighto.vmt
 
 #base ../colors/ranges/conditionals.vmt
 #base ../const/constantNumbers.vmt

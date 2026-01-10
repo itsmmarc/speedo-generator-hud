@@ -1,4 +1,4 @@
-#base fonts/BAHNSCHRIFT/digits.vmt  // write to this
+#base fonts/roboto/digits.vmt  // write to this
 
 UnlitGeneric{
     $colorMain  "{ 255 255 255 }" // write to this

@@ -62,8 +62,8 @@
     //==============================================================
     // COLOR VARIABLES
     //==============================================================  
-    $colorMain  "{ 255 255 255 }" // default color
-    $color      $colorMain
+    $colorMainHeighto  "{ 255 255 255 }" // default color
+    $color      $colorMainHeighto
 
 	Proxies {
     //==============================================================
@@ -292,7 +292,7 @@
         // default to white if none of the below conditions are met
         //--------------------------------------------------------------
         Equals {
-            srcVar1     "$colorMain"
+            srcVar1     "$colorMainHeighto"
             resultVar   "$color"
         }
 

@@ -10,7 +10,7 @@ UnlitGeneric{
     $colorTriple      "{ 0 255 85 }"  // write to this
     $colorMaxVel    "{ 255 190 0 }" // write to this
 
-    $roundAmount        10  // write to this
+    $round        1  // write to this
 
     $hCloseMin 849   // write to this
     $hCloseMax 1350  // write to this

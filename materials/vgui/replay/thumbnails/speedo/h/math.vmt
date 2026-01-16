@@ -16,9 +16,7 @@
     
     $isCorrectSizeA 0
     $isCorrectSizeB 0
-    $isCorrectSize 0
-
-	
+    $isCorrectSize 0	
 
     //==============================================================
     // UPDATE RATE VARIABLES
@@ -71,8 +69,6 @@
     //==============================================================  
     $colorMain  "{ 255 255 255 }" // default color
     $color      $colorMain
-
-    //==============================================================
 	
 	Proxies {
     //==============================================================
@@ -300,6 +296,13 @@
     //==============================================================
     // ROUNDING
     //==============================================================
+        LessOrEqual {
+            srcVar1         "$round"
+            srcVar2         "$1"
+            resultVar       "$roundAmount"
+            greaterVar      "$10"
+            lessEqualVar    "$1"
+        }
         // $frame = $frame/10
         Divide { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
         // discard decimals of $frame

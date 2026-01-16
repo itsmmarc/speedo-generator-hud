@@ -287,6 +287,13 @@
     //==============================================================
     // ROUNDING
     //==============================================================
+        LessOrEqual {
+            srcVar1         "$round"
+            srcVar2         "$1"
+            resultVar       "$roundAmount"
+            greaterVar      "$10"
+            lessEqualVar    "$1"
+        }
         // $frame = $frame/10
         Divide { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
         // discard decimals of $frame

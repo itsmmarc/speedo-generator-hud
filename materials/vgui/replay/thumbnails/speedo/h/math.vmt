@@ -324,14 +324,14 @@
         //--------------------------------------------------------------
         LessOrEqual {
             srcVar1         "$frame"
-            srcVar2         "$closeMin"
+            srcVar2         "$hCloseMin"
             resultVar       "$isAboveCloseMin"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
             srcVar1         "$frame"
-            srcVar2         "$closeMax"
+            srcVar2         "$hCloseMax"
             resultVar       "$isBelowCloseMax"
             greaterVar      "$0"
             lessEqualVar    "$1"
@@ -355,14 +355,14 @@
         //--------------------------------------------------------------
         LessOrEqual {
             srcVar1         "$frame"
-            srcVar2         "$goodMin"
+            srcVar2         "$hGoodMin"
             resultVar       "$isAboveGoodMin"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
             srcVar1         "$frame"
-            srcVar2         "$goodMax"
+            srcVar2         "$hGoodMax"
             resultVar       "$isBelowGoodMax"
             greaterVar      "$0"
             lessEqualVar    "$1"

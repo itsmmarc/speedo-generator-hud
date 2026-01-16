@@ -2,7 +2,7 @@
 
 #base ../colors/ranges/heighto.vmt
 
-#base ../colors/ranges/conditionals.vmt
+#base ../const/conditionals.vmt
 #base ../const/constantNumbers.vmt
 
 #base math.vmt

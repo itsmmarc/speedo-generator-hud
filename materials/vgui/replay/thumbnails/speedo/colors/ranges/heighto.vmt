@@ -2,14 +2,12 @@
     //==============================================================
     // RANGES
     //--------------------------------------------------------------
-    // Double Range
+    // Double Threshold
     $doubleMin 1259     // write to this
-    $doubleMax 2160     // write to this
 
-    // Triple Range 
+    // Triple Threshold 
     $tripleMin 2159     // write to this
-    $tripleMax 7500     // write to this
 
-    // Max Velocity nge
+    // Max Velocity Threshold
     $maxVelMin 7699     // write to this
 }

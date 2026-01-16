@@ -1,8 +1,8 @@
 // SPEEDO SLOTS
-//#base slot/1  // write to this
-#base slot/2/hspeedo.res  // write to this
-#base slot/3/heighto.res  // write to this
-//#base slot/4  // write to this
+#base slot/1/hspeedo.res  // write to this
+#base slot/2/vspeedo.res  // write to this
+#base slot/3/aspeedo.res  // write to this
+#base slot/4/heighto.res  // write to this
 
 speedo_base.res{
     speedos{

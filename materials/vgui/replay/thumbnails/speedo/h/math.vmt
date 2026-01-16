@@ -379,37 +379,6 @@
             greaterVar      "$colorGood"
             lessEqualVar    "$color"
         }
-
-        //==============================================================
-        // ABOVE
-        // if(speed>aboveMin && speed<aboveMax)
-        //--------------------------------------------------------------
-        LessOrEqual {
-            srcVar1         "$frame"
-            srcVar2         "$closeMinB"
-            resultVar       "$isAboveCloseMinB"
-            greaterVar      "$1"
-            lessEqualVar    "$0"
-        }
-        LessOrEqual {
-            srcVar1         "$frame"
-            srcVar2         "$closeMaxB"
-            resultVar       "$isBelowCloseMaxB"
-            greaterVar      "$0"
-            lessEqualVar    "$1"
-        }
-        Multiply {
-            srcVar1     "$isAboveCloseMinB"
-            srcVar2     "$isBelowCloseMaxB"
-            resultVar   "$isCloseB"
-        }
-        LessOrEqual {
-            srcVar1         "$isCloseB"
-            srcVar2         "$0"
-            resultVar       "$color"
-            greaterVar      "$colorClose"
-            lessEqualVar    "$color"
-        }
     //==============================================================
     // DIGIT SEPERATION
     //==============================================================

@@ -258,6 +258,15 @@
 		Subtract { srcVar1 "$top" srcVar2 "$bottom" resultVar "$tmp" } 
 		Add { srcVar1 "$tmp" srcVar2 "$10" resultVar "$heighto" } 
 
+        // clamp height
+        "Clamp"
+        {
+            "min"                                                   "0"
+            "max"                                                   "9999"
+            "srcVar1"                                               "$heighto"
+            "resultVar"                                             "$heighto"
+        }
+
     //==============================================================
     // UPDATE FRAME
     //==============================================================
@@ -303,21 +312,9 @@
         LessOrEqual {
             srcVar1         "$frame"
             srcVar2         "$doubleMin"
-            resultVar       "$isAboveDoubleMin"
+            resultVar       "$isDouble"
             greaterVar      "$1"
             lessEqualVar    "$0"
-        }
-        LessOrEqual {
-            srcVar1         "$frame"
-            srcVar2         "$doubleMax"
-            resultVar       "$isBelowDoubleMax"
-            greaterVar      "$0"
-            lessEqualVar    "$1"
-        }
-        Multiply {
-            srcVar1     "$isAboveDoubleMin"
-            srcVar2     "$isBelowDoubleMax"
-            resultVar   "$isDouble"
         }
         LessOrEqual {
             srcVar1         "$isDouble"
@@ -334,21 +331,9 @@
         LessOrEqual {
             srcVar1         "$frame"
             srcVar2         "$tripleMin"
-            resultVar       "$isAboveTripleMin"
+            resultVar       "$isTriple"
             greaterVar      "$1"
             lessEqualVar    "$0"
-        }
-        LessOrEqual {
-            srcVar1         "$frame"
-            srcVar2         "$tripleMax"
-            resultVar       "$isBelowTripleMax"
-            greaterVar      "$0"
-            lessEqualVar    "$1"
-        }
-        Multiply {
-            srcVar1     "$isAboveTripleMin"
-            srcVar2     "$isBelowTripleMax"
-            resultVar   "$isTriple"
         }
         LessOrEqual {
             srcVar1         "$isTriple"
@@ -365,12 +350,12 @@
         LessOrEqual {
             srcVar1         "$frame"
             srcVar2         "$maxVelMin"
-            resultVar       "$isAboveMaxVelMin"
+            resultVar       "$isMaxVel"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
-            srcVar1         "$isAboveMaxVelMin"
+            srcVar1         "$isMaxVel"
             srcVar2         "$0"
             resultVar       "$color"
             greaterVar      "$colorMaxVel"

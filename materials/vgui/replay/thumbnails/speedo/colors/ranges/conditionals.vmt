@@ -10,17 +10,7 @@
     $isBelowGoodMax 0
     $isGood 0
 
-    $isAboveCloseMinB 0
-    $isBelowCloseMaxB 0
-    $isCloseB 0
-
-    $isAboveDoubleMin 0
-    $isBelowDoubleMax 0
     $isDouble 0
-
-    $isAboveTripleMin 0
-    $isBelowTripleMax 0
     $isTriple 0
-
-    $isAboveMaxVelMin 0
+    $isMaxVel 0
 }

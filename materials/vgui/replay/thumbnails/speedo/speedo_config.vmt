@@ -5,26 +5,26 @@ UnlitGeneric{
     $colorClose "{ 35 125 235 }"    // write to this
     $colorGood  "{ 0 255 85 }"  // write to this
 
-    $colorMainH      "{ 255 255 255 }" // write to this
-    $colorDouble     "{ 35 125 235 }"    // write to this
-    $colorTriple      "{ 0 255 85 }"  // write to this
+    $colorMainH "{ 255 255 255 }" // write to this
+    $colorDouble    "{ 35 125 235 }"    // write to this
+    $colorTriple    "{ 0 255 85 }"  // write to this
     $colorMaxVel    "{ 255 190 0 }" // write to this
 
     $round        1  // write to this
 
-    $hCloseMin 849   // write to this
-    $hCloseMax 1350  // write to this
-    $hGoodMin 1049   // write to this
-    $hGoodMax 1150   // write to this
-    $vCloseMin 0 // write to this
-    $vCloseMax 0 // write to this
-    $vGoodMin 0  // write to this
-    $vGoodMax 0  // write to this
-    $aCloseMin 849   // write to this
-    $aCloseMax 1350  // write to this
-    $aGoodMin 1049   // write to this
-    $aGoodMax 1150   // write to this
-    $doubleMin 1259     // write to this
-    $tripleMin 2159     // write to this
-    $maxVelMin 7699     // write to this
+    $hCloseMin  849   // write to this
+    $hCloseMax  1350  // write to this
+    $hGoodMin   1049   // write to this
+    $hGoodMax   1150   // write to this
+    $vCloseMin  0 // write to this
+    $vCloseMax  0 // write to this
+    $vGoodMin   0  // write to this
+    $vGoodMax   0  // write to this
+    $aCloseMin  849   // write to this
+    $aCloseMax  1350  // write to this
+    $aGoodMin   1049   // write to this
+    $aGoodMax   1150   // write to this
+    $doubleThreshold    1259     // write to this
+    $tripleThreshold    2159     // write to this
+    $maxVelThreshold    7699     // write to this
 }

@@ -314,11 +314,11 @@
 
         //==============================================================
         // DOUBLE
-        // if(speed>doubleMin && speed<doubleMax)
+        // if(speed>doubleThreshold && speed<doubleMax)
         //--------------------------------------------------------------
         LessOrEqual {
             srcVar1         "$frame"
-            srcVar2         "$doubleMin"
+            srcVar2         "$doubleThreshold"
             resultVar       "$isDouble"
             greaterVar      "$1"
             lessEqualVar    "$0"
@@ -333,11 +333,11 @@
 
         //==============================================================
         // TRIPLE
-        // if(speed>tripleMin && speed<tripleMax)
+        // if(speed>tripleThreshold && speed<tripleMax)
         //--------------------------------------------------------------
         LessOrEqual {
             srcVar1         "$frame"
-            srcVar2         "$tripleMin"
+            srcVar2         "$tripleThreshold"
             resultVar       "$isTriple"
             greaterVar      "$1"
             lessEqualVar    "$0"
@@ -356,7 +356,7 @@
         //--------------------------------------------------------------
         LessOrEqual {
             srcVar1         "$frame"
-            srcVar2         "$maxVelMin"
+            srcVar2         "$maxVelThreshold"
             resultVar       "$isMaxVel"
             greaterVar      "$1"
             lessEqualVar    "$0"

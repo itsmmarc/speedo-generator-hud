@@ -1,7 +1,7 @@
 "#base"                 "../speedo_config.vmt"
 "#base"                 "../colors/ranges/aspeedo.vmt"
-"#base"                 "../const/conditionals.vmt"
-"#base"                 "../const/constantNumbers.vmt"
+"#base"                 "../const/vars.vmt"
+"#base"                 "../const/num.vmt"
 "#base"                 "math.vmt"
 "UnlitGeneric"
 {

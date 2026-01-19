@@ -1,5 +1,6 @@
-"UnlitGeneric" {
-	$digit 10
-	$gt 99
-    $lt 999
+"UnlitGeneric"
+{
+        "$digit"                "10"
+        "$gt"                   "99"
+        "$lt"                   "999"
 }

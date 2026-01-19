@@ -1,7 +1,8 @@
-"speedo_base.res"{
+"speedo_base.res"
+{
     "speedos"
     {
-        "visible" "0"
-        "enabled" "0"
+        "visible"           "0"
+        "enabled"           "0"
     }
 }

@@ -1,10 +1,8 @@
-#base ../speedo_config.vmt
-
-#base ../colors/ranges/heighto.vmt
-
-#base ../const/conditionals.vmt
-#base ../const/constantNumbers.vmt
-
-#base math.vmt
-
-"UnlitGeneric" {}
+"#base"                 "../speedo_config.vmt"
+"#base"                 "../colors/ranges/heighto.vmt"
+"#base"                 "../const/conditionals.vmt"
+"#base"                 "../const/constantNumbers.vmt"
+"#base"                 "math.vmt"
+"UnlitGeneric"
+{
+}
